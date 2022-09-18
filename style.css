@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+  display:block;
+  text-align: center;
+  /*cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  background-color: black;
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 25px
+}
+button{
+  display: block;
+  margin: auto;
+  padding: 10px 24px;
+  border: solid;
+  background-color: black;
+  font-family: 'VT323', monospace;
+  color: white;
+
+}
+
+button:hover{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  background-color: black;
+  color: yellow;
+}
+
+#heading{
+  font-size: 100px;
+  color: white;
+}
+
+#gametitle{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+#button1{
+  display: inline-block;
+}
+#button2{
+  display: inline-block;
+}
+
+#link{
+  color: yellow;
+}
+
+#secondlink{
+  color: yellow;
+}
+
+#lastsentence{
+  display: block;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+#flower_01{
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+#flower_02{
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+.imagecontainer{
+  position: relative;
+  width: 100%
+}
+
+.image{
+  display:block;
+  width: 100%;
+  height: auto;
+}
+
+.fadeoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.imagecontainer:hover .fadeoverlay{
+  opacity: 1;
+}
+
+.text{
+  color: white;
+  font-family 'VT323', monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
